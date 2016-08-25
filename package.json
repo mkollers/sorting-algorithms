@@ -1,0 +1,31 @@
+{
+  "name": "sorting-algorithms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha \"./**/spec.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkollers/sorting-algorithms.git"
+  },
+  "keywords": [
+    "sorting",
+    "algorithms",
+    "theoretical",
+    "informatik",
+    "TI"
+  ],
+  "author": "Markus Kollers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mkollers/sorting-algorithms/issues"
+  },
+  "homepage": "https://github.com/mkollers/sorting-algorithms#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "jasmine": "^2.4.1",
+    "mocha": "^3.0.2"
+  }
+}
