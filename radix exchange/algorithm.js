@@ -45,8 +45,8 @@ function sortBinary(binary, pos, max) {
         }
     }
     if (pos < max) { // if there is another binary to order by
-        left = sortBinary(left, pos += 1, max);
-        right = sortBinary(right, pos += 1, max);
+        left = sortBinary(left, pos + 1, max);
+        right = sortBinary(right, pos + 1, max);        
     }
     binary = left.concat(right); // merge left array with right array
     return binary;
